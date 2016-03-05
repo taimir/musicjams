@@ -1,0 +1,42 @@
+{
+  "//": "Specification of this file can be found at: https://docs.npmjs.com/files/package.json",
+  "name": "musicjams",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taimir/musicjams.git"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel": "~6.3.26",
+    "babel-core": "~6.4.0",
+    "babel-loader": "~6.2.0",
+    "babel-preset-es2015": "~6.3.13",
+    "babelify": "~7.2.0",
+    "bower": "~1.7.1",
+    "eslint-plugin-angular": "~0.15.0",
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-angular-templatecache": "~1.8.0",
+    "gulp-clang-format": "~1.0.23",
+    "gulp-eslint": "~1.1.1",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-inject": "~3.0.0",
+    "gulp-sass": "~2.1.1",
+    "gulp-sourcemaps": "~1.6.0",
+    "lodash": "~4.1.0",
+    "q": "~1.4.1",
+    "webpack-stream": "~3.1.0",
+    "wiredep": "~3.0.0"
+  },
+  "dependencies": {
+    "serve-static": "~1.10.2",
+    "connect": "~3.4.1"
+  },
+  "engines": {
+    "node": ">=4.2.3"
+  },
+  "scripts": {
+    "postinstall": "postinstall.sh"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "//": "Specification of this file can be found at:",
+  "//": "https://github.com/bower/spec/blob/master/json.md",
+  "name": "musicjams",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-aria": "~1.5.0",
+    "angular-material": "~1.0.1",
+    "angular-messages": "~1.5.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.5.0",
+    "angular-sanitize": "~1.5.0"
+  }
+}

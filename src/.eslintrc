@@ -1,0 +1,40 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+  },
+  "ecmaFeatures": {
+    "modules": true,
+  },
+  "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+  },
+  "rules": {
+    "arrow-parens": [2, "always"],
+    "comma-dangle": 0,
+    "dot-location": [2, "property"],
+    "eol-last": 2,
+    "eqeqeq": [2, "allow-null"],
+    "new-cap": 2,
+    "new-parens": 2,
+    "no-const-assign": 2,
+    "no-invalid-this": 2,
+    "no-multiple-empty-lines": [2, {"max": 1}],
+    "no-unneeded-ternary": 2,
+    "no-unexpected-multiline": 2,
+    "no-trailing-spaces": 2,
+    "no-var": 2,
+    "one-var": [2, "never"],
+    "prefer-template": 2,
+    "radix": 2,
+    "semi": [2, "always"],
+    "strict": [2, "never"],
+    "object-curly-spacing": [2, "never"],
+    "no-undef": 0,
+    "valid-jsdoc": [0, {}],
+  },
+}
